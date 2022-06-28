@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(255, 253, 238);
+}
+
+.row img{
+    width: 350px;
+    border-radius: 25px;
+}
+
+.col{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.col:hover{
+background-color: rgb(175, 37, 37);
+}
+
+.help{
+    background-color: rgb(253, 78, 78);
+    border: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 45%;
+    margin-left: 35px;
+    animation-name: left-box;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+
+
+
+.explanation{
+    background-color: rgb(253, 78, 78);
+    border: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 45%;
+    margin-left: 700px;    
+    animation-name: right-box;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.advantages{
+    background-color: rgb(253, 78, 78);
+    border: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 45%;
+    margin-left: 35px;
+    animation-name: left-box;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.disadvantages{
+    background-color: rgb(253, 78, 78);
+    border: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 45%;
+    margin-left: 700px;
+    animation-name: right-box;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.difference{
+    background-color: rgb(253, 78, 78);
+    border: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 45%;
+    margin-left: 35px;
+    animation-name: left-box;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+h1{
+    font-family: fantasy;
+    text-align: center;
+    border: dashed;
+}
+
+.facts{
+    background-color: rgb(253, 78, 78);
+    border: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 45%;
+    margin-left: 700px;
+    animation-name: right-box;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes right-box {
+    0%{
+        margin-right: 95%;
+    }
+    100%{
+        margin-right: 35px;
+    }
+}
+
+
+@keyframes left-box {
+    0%{
+        margin-left: 95%;
+    }
+    100%{
+        margin-left: 35px;
+    }
+}
+
+button{
+    background-color: rgb(253, 78, 78);
+    border: none;
+    color: rgb(192, 235, 250);
+    width: 100px;
+    height: 55px;
+    font-size: 15px;
+}
